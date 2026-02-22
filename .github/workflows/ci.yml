@@ -9,7 +9,7 @@ on:
 
 jobs:
   unit-tests-backend:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
