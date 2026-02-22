@@ -22,4 +22,4 @@ jobs:
       - name: Execute backend unit tests
         working-directory: ./bugtracker-backend
         run: |
-          go test -v ./..
+          go test -v ./...
