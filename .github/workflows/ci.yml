@@ -45,6 +45,6 @@ jobs:
           uses: dorny/test-reporter@v1
           if: always()
           with: 
-              name : frontend unit test report
-              path : bugtracker-frontend/test-results.xml
+              name: frontend unit test report
+              path: bugtracker-frontend/test-results.xml
               reporter: jest-junit
